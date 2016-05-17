@@ -12,6 +12,10 @@
 		52EC48471CB688010056952A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EC48451CB688010056952A /* Main.storyboard */; };
 		52EC48491CB688010056952A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EC48481CB688010056952A /* Assets.xcassets */; };
 		52EC484C1CB688010056952A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EC484A1CB688010056952A /* LaunchScreen.storyboard */; };
+		52EC48561CB7B3B80056952A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EC48551CB7B3B80056952A /* DetailsViewController.swift */; };
+		DD5656201CE2760700E190EA /* home_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD56561F1CE2760700E190EA /* home_bg.jpg */; };
+		DD5656241CE6396600E190EA /* HexagramDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5656231CE6396600E190EA /* HexagramDetailsViewController.swift */; };
+		DD5656281CE642DE00E190EA /* Hexagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5656271CE642DE00E190EA /* Hexagrams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		52EC48481CB688010056952A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EC484B1CB688010056952A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EC484D1CB688010056952A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EC48551CB7B3B80056952A /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DD56561F1CE2760700E190EA /* home_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_bg.jpg; sourceTree = "<group>"; };
+		DD5656231CE6396600E190EA /* HexagramDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagramDetailsViewController.swift; sourceTree = "<group>"; };
+		DD5656271CE642DE00E190EA /* Hexagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagrams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			children = (
 				52EC48401CB688010056952A /* Yi Jing */,
 				52EC483F1CB688010056952A /* Products */,
+				DD56561F1CE2760700E190EA /* home_bg.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +69,9 @@
 				52EC48481CB688010056952A /* Assets.xcassets */,
 				52EC484A1CB688010056952A /* LaunchScreen.storyboard */,
 				52EC484D1CB688010056952A /* Info.plist */,
+				52EC48551CB7B3B80056952A /* DetailsViewController.swift */,
+				DD5656231CE6396600E190EA /* HexagramDetailsViewController.swift */,
+				DD5656271CE642DE00E190EA /* Hexagrams.swift */,
 			);
 			path = "Yi Jing";
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 				52EC484C1CB688010056952A /* LaunchScreen.storyboard in Resources */,
 				52EC48491CB688010056952A /* Assets.xcassets in Resources */,
 				52EC48471CB688010056952A /* Main.storyboard in Resources */,
+				DD5656201CE2760700E190EA /* home_bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5656281CE642DE00E190EA /* Hexagrams.swift in Sources */,
+				DD5656241CE6396600E190EA /* HexagramDetailsViewController.swift in Sources */,
 				52EC48441CB688010056952A /* ViewController.swift in Sources */,
 				52EC48421CB688010056952A /* AppDelegate.swift in Sources */,
+				52EC48561CB7B3B80056952A /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				52EC48521CB688010056952A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
